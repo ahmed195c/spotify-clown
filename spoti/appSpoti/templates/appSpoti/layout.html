@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static tailwind_tags %}
+<head>
+    {% tailwind_css %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'appSpoti/styles.css' %}">
+    <script defer src="{% static 'appSpoti/index.js' %}"></script>
+    <title>spoti</title>
+</head>
+<body>
+    <div class="home-div bg-green-50  max-h-[300px] max-w-[500px]">
+        <div class="w-full">
+            <div class=" w-full flex">
+                <img src="{% static 'appSpoti\images\home.png' %}">
+                <h4 class="bg-red-900">Home</h4>
+            </div>
+        </div>
+        <div>
+            <div>
+                <i></i>
+            </div>
+            <div>
+                 
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
